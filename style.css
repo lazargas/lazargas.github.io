@@ -21,7 +21,8 @@ font-weight: bolder;
 
 
 
-h1{
+.welcome{
+    margin: 50px;
     color:rgb(248, 248, 248);
     font-family: 'Bangers', cursive;
     text-align: center;
@@ -31,18 +32,62 @@ h1{
     
     
 }
-html{
-    color: azure;
-    background-image: url("img.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-p{
-    color:rgb(245, 236, 236);
+
+.fakehome{
+    
+    color:color rgb(20, 19, 19);
+    display: flex;
     font-family: 'Bangers', cursive;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     border: rgb(15, 105, 96);
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+   
+   
     
     
+}
+.quote{
+    background-color: rgb(120, 155, 161);
+    color:rgb(240, 240, 240);
+    margin-top: 40px;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    margin-left: 280px;
+    margin-top: 100px;
+    color:rgb(241, 237, 237);
+    
+}
+html{
+    background-image: url("C:/ptogrsmd/img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.About{
+    color:rgb(20, 19, 19);
+    display: flex;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 40px;
+    border: rgb(15, 105, 96);
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+   margin: 80px;
+   background-image: url("about.png");
+   
+}
+.Sticky {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
