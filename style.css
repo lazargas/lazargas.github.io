@@ -18,6 +18,14 @@ font-weight: bolder;
 
 
 }
+nav a:hover{
+   
+  
+  color:rgb(20, 19, 19) ;
+  
+  transition: 0.35s;  
+}
+
 
 
 
@@ -61,7 +69,13 @@ font-weight: bolder;
     margin-left: 280px;
     margin-top: 100px;
     color:rgb(241, 237, 237);
+    -webkit-transition: All 0.5s ease-in-out;
     
+}
+.quote:hover{
+  color:rgb(20, 19, 19) ;
+  background-color: aqua;
+  transition: 0.5s;
 }
 html{
     background-image: url("img.jpg");
@@ -85,6 +99,7 @@ html{
    background-image: url("aboutB3.png");
    
 }
+
 .Sticky {
     padding: 20px;
     position: fixed;
@@ -98,7 +113,13 @@ html{
     margin: 20px;
     
 }
-
+.me:hover
+{
+  background-color: aqua;
+  
+  transition: 1s;
+  
+}
 ol, li{
     list-style: none;
     padding: 0;
@@ -207,6 +228,13 @@ ol, li{
     padding-right: 40px;
     margin-bottom: 30px;
     border-radius: 80px;
+    -webkit-transition: All 0.5s ease-in-out;
+  }
+  .one:hover{
+    background-image: url("aboutB.jpg");
+    color: rgb(15, 5, 59);
+    border-radius: 80px;
+
   }
   .two{
     color: rgb(240, 240, 240);
@@ -215,6 +243,12 @@ ol, li{
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 30px;
+    border-radius: 80px;
+    -webkit-transition: All 0.5s ease-in-out;
+  }
+  .two:hover{
+    background-image: url("aboutB.jpg");
+    color: rgb(15, 5, 59);
     border-radius: 80px;
   }
   .three{
@@ -225,7 +259,14 @@ ol, li{
     padding-right: 40px;
     margin-bottom: 30px;
     border-radius: 80px;
+    -webkit-transition: All 0.5s ease-in-out;
   }
+  .three:hover{
+    background-image: url("aboutB.jpg");
+    color: rgb(15, 5, 59);
+    border-radius: 80px;
+  }
+
 .four{
   color: rgb(240, 240, 240);
   background-image: url("skill7.jpg");
@@ -234,7 +275,14 @@ ol, li{
   padding-right: 40px;
   margin-bottom: 30px;
   border-radius: 80px;
+  -webkit-transition: All 0.5s ease-in-out;
 }
+.four:hover{
+  background-image: url("aboutB.jpg");
+  color: rgb(15, 5, 59);
+  border-radius: 80px;
+}
+
 .nontech{
   color: rgb(20, 19, 19);
      
@@ -250,10 +298,61 @@ ol, li{
   flex-direction: row;
   align-content: space-around;
 }
-.down{
-  margin-left: 40px;
+
+.image {
+  position: relative;
+  width: 350px;
 }
 
-.downii{
-  margin-left: 130px;
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: rgb(240, 240, 240);;
+  font-family: 'Bangers', cursive;
+  font-weight: lighter;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
 }
