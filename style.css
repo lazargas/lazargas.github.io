@@ -24,7 +24,7 @@ font-weight: bolder;
 .welcome{
     margin: 50px;
     color:rgb(248, 248, 248);
-    font-family: 'Bangers', cursive;
+    font-family: 'Bangers';
     text-align: center;
     font-weight: lighter;
     font-size: 50px;
@@ -162,3 +162,98 @@ ol, li{
 
     
   }
+  .skills{
+    background-image: url("skill6.jpg");
+    margin: 80px;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    border: 15px solid #000000;
+     
+   
+  }
+  .skills ul
+  {
+    color:rgb(20, 19, 19);
+   
+    font-size: 40px;
+   margin: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+
+   
+   
+  }
+  .skillH{
+    color: rgb(20, 19, 19);
+     
+    font-weight: bolder;
+    font-size: 50px;
+    
+    
+    text-align: center;
+    padding: 30px;
+   
+    
+  }
+
+  .one{
+    color: rgb(240, 240, 240);
+
+    background-image: url("skill7.jpg");
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+  }
+  .two{
+    color: rgb(240, 240, 240);
+    background-image: url("skill7.jpg");
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+  }
+  .three{
+    color: rgb(240, 240, 240);
+    background-image: url("skill7.jpg");
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+  }
+.four{
+  color: rgb(240, 240, 240);
+  background-image: url("skill7.jpg");
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+  border-radius: 80px;
+}
+.nontech{
+  color: rgb(20, 19, 19);
+     
+    font-weight: bolder;
+    font-size: 50px;
+    
+    
+    text-align: center;
+    padding: 30px;
+}
+.nt ul{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.down{
+  margin-left: 40px;
+}
+
+.downii{
+  margin-left: 130px;
+}
