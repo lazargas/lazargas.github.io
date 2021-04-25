@@ -373,6 +373,7 @@ ol, li{
    border: black solid 10px;
 }
 
+
 .pr{
   color:rgb(0, 0, 0); 
   padding: 15px;
@@ -396,7 +397,7 @@ transition: 2s;
 
 }
 .contact{
-  background-color: rgb(241, 238, 238);
+  background-color: rgb(203, 205, 206);
   font-size: larger;
   font-family: 'Bangers', cursive;
   
@@ -414,6 +415,14 @@ footer{
   text-align: center;
   padding-top: 5px;
   border: white solid 2px;
+}
+.contact>ul>li>a>img{
+  -webkit-transition: All 0.5s ease-in-out;
+}
+
+.contact>ul>li>a>img:hover{
+  filter: invert(100) ;
+  transition: 0.35s;
 }
 
 
