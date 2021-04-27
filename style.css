@@ -2,13 +2,12 @@
     box-sizing: border-box;
 }
 
-
 nav{
-    padding: 20px;
-    font-size: 20px;
-    background-color: rgb(120, 155, 161);
-    text-align: center;
-       
+  padding: 20px;
+  font-size: 20px;
+  background-color: rgb(120, 155, 161);
+  text-align: center;
+     
 }
 nav a{
 padding: 100px;
@@ -19,12 +18,14 @@ font-weight: bolder;
 
 }
 nav a:hover{
-   
-  
-  color:rgb(20, 19, 19) ;
-  
-  transition: 0.35s;  
+ 
+
+color:rgb(20, 19, 19) ;
+
+transition: 0.35s;  
 }
+
+
 
 
 
@@ -36,10 +37,11 @@ nav a:hover{
     text-align: center;
     font-weight: lighter;
     font-size: 50px;
-    
+    -webkit-transition: All 0.5s ease-in-out;
     
     
 }
+
 
 .fakehome{
     
@@ -52,10 +54,13 @@ nav a:hover{
     justify-content: center;
     flex-direction: column;
     align-items: space-between;
-   
+    -webkit-transition: All 0.5s ease-in-out;
    
     
     
+}
+.fakehome:hover{
+  background-color: aqua;
 }
 .quote{
     background-color: rgb(120, 155, 161);
@@ -75,7 +80,7 @@ nav a:hover{
 .quote:hover{
   color:rgb(20, 19, 19) ;
   background-color: aqua;
-  transition: 0.5s;
+  
 }
 html{
     background-image: url("img.jpg");
@@ -92,7 +97,7 @@ html{
     font-family: 'Bangers', cursive;
     text-align: center;
     font-size: 40px;
-    border: rgb(15, 105, 96);
+    border: 15px solid #000000;
     justify-content: center;
     flex-direction: column;
     align-items: space-between;
@@ -102,12 +107,13 @@ html{
 }
 
 .Sticky {
-    padding: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:1;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1;
 }
+
 .me{
    
     margin-top: 80px;
@@ -203,6 +209,7 @@ ol, li{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+   flex-wrap: wrap;
    
 
    
@@ -382,8 +389,8 @@ ol, li{
 
 }
 .hm{
-  padding: 50px; margin-left: 500px;
-  margin-right: 500px; border-radius: 20px;
+  padding: 50px; 
+   border-radius: 20px;
  
 }
 
@@ -402,6 +409,7 @@ transition: 2s;
   font-size: larger;
   font-family: 'Bangers', cursive;
   
+  
 }
 
 .contact ul{
@@ -416,6 +424,7 @@ footer{
   text-align: center;
   padding-top: 5px;
   border: white solid 2px;
+  bottom: 0;
 }
 .contact>ul>li>a>img{
   -webkit-transition: All 0.5s ease-in-out;
@@ -425,7 +434,6 @@ footer{
   filter: invert(100) ;
   transition: 0.35s;
 }
-
 
 
 

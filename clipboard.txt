@@ -25,3 +25,19 @@ function myFunction() {
    fake home background color rgb(20, 19, 19
 
    border-left: 1px solid #abaaed;
+
+   nav a{
+padding: 100px;
+color: azure;
+font-family: 'Acme', sans-serif;
+font-weight: bolder;
+
+
+}
+nav a:hover{
+   
+  
+  color:rgb(20, 19, 19) ;
+  
+  transition: 0.35s;  
+}
